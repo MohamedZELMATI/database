@@ -1,20 +1,70 @@
-{
-  "first_name_dealer": "hicham",
-  "last_name_dealer": "boundouq",
-  "compagny_name_dealer": "hicham dealersship",
-  "EIN": null,
-  "dealer_phone_1": "(324) 234-2343",
-  "dealer_phone_2": null,
-  "dealer_fax": null,
-  "cell_phone_info": "(423) 423-4324",
-  "dealer_Email": "h.boundouq+2@autodealersdigital.com",
-  "adress_line_1_dealer": "175 road street",
-  "adress_line_2_dealer": null,
-  "city_dealer": "los angeles",
-  "state": "9",
-  "dealer_county": "shan tan",
-  "dealer_zipcode": "1234124",
-  "country": "840",
-  "licence_number_dealer": null,
-  "boe_number_dealer": null
-}
+[    {
+  "label": "Vehicle History Report",
+  "description": "Includes accident, title, and ownership details.",
+  "className": "",
+  "labelClassName": "",
+  "descriptionClassName": "",
+  "containerClassName": "",
+  "component": "Checkbox",
+  "name": "agreement",
+  "validations": {
+    "type": "boolean",
+    "controls": [{
+      "required": true,
+                  "message": "It is required."
+    }]
+    }},
+    [
+        {
+            "id": "first_name_dealer",
+            "name": "first_name_dealer",
+            "description": "First Name description",
+            "label": "First Name",
+            "placeholder": "Enter your First Name",
+            "type": "text",
+            "containerClassName":"",
+            "inputClassName":"",
+            "className":"",
+            "labelClassName":"",
+            "component": "Input",
+            "maxWidth": "4xl",
+             "validations": {
+              "type":"string",
+              "controls": [
+                {
+                  "required": true,
+                  "message": "It is required."
+                },
+                {
+                  "minLength": 1,
+                  "message": "It is required."
+                }
+              ]
+            }
+          },    
+
+        {
+            "id": "last_name_dealer",
+            "name": "last_name_dealer",
+            "description": "Last Name description",
+            "label": "Last Name",
+            "placeholder": "Enter your Last Name",
+            "type": "text",
+            "containerClassName":"",
+            "inputClassName":"",
+            "className":"",
+            "labelClassName":"",
+            "component": "Input",
+            "maxWidth": "4xl",
+             "validations": {
+              "type":"string",
+              "controls": [
+                {
+                  "required": true,
+                  "message": "It is required."
+                }
+              ]
+            }
+          }
+    ]
+]
